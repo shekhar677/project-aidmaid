@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #888;
+  margin: 0;
+  padding: 0;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* section style */
+#section-top {
+  background: linear-gradient(to bottom, #FE8C4D 30%, #FD5554 90%);
+  overflow: hidden;
+}
+#section-top header {
+  width: 80%;
+  margin: auto;
+}
+#section-top header h1 {
+  display: inline-block;
+  color: #f2f2f2;
+  font-size: 2em;
+  margin-left: 1em;
+}
+#section-top header nav {
+  float: right;
+}
+#section-top header nav ul {
+  list-style-type: none;
+}
+#section-top header nav ul li {
+  display: inline-block;
+  margin: 1.6em auto;
+}
+#section-top header nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #f2f2f2;
+  margin-left: 1em;
+  font-size: 0.8em;
+  padding: 0.5em 1em;
+}
+#section-top header nav ul li a:hover {
+  font-weight: 700;
+  color: #fff;
+}
+#section-top .content {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+#section-top .content .tagline {
+  float: left;
+  width: 60%;
+  padding: 6em 9em 6em 1em;
+  color: #f2f2f2;
+}
+#section-top .content .tagline img {
+  margin: 1em 0.3em;
+  display: inline-block;
+}
+#section-top .content .tagline h1 {
+  font-size: 2.5em;
+  padding: 0.7em 0em;
+}
+#section-top .content .tagline p {
+  font-size: 0.8em;
+}
+#section-top .content .device {
+  width: 40%;
+  float: left;
+  position: absolute;
+  top: 3em;
+}
