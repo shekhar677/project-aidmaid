@@ -78,3 +78,67 @@ body {
   position: absolute;
   top: 3em;
 }
+
+
+#person {
+  background: #FFF8F7;
+}
+#person .content {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  padding: 60px;
+}
+#person .content .ios {
+  width: 50%;
+  position: relative;
+  top: 60px;
+  float: left;
+}
+#person .content .ios > img {
+  transform: translate(-40%, 0%);
+  width: 900px;
+  height: 600px;
+}
+#person .content .aside {
+  float: right;
+  width: 50%;
+  margin-top: 100px;
+}
+#person .content .aside .top {
+  width: 100%;
+  margin-bottom: 2em;
+}
+#person .content .aside .top h1 {
+  color: #F05D64;
+  font-size: 1.7em;
+  margin: 0.3em 1em 0.2em 0em;
+  text-align: left;
+}
+#person .content .aside .top p {
+  color: #A9A6A3;
+  font-size: 0.9em;
+}
+#person .content .aside .bottom .desc1 {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  padding-right: 40px;
+}
+#person .content .aside .bottom .desc2 {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  padding-right: 40px;
+}
+#person .content .tag-p {
+  color: #A9A6A3;
+  font-size: 0.9em;
+}
+#person .content .tag-h3 {
+  color: #a8a8a8;
+  font-size: 1em;
+}
+#person .content .aside .bottom .img img {
+  width: 80px;
+}
