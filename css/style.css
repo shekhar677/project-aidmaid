@@ -55,33 +55,34 @@ body {
   margin: auto;
   position: relative;
 }
-#section-top .content .tagline {
+.content .tagline {
   float: left;
   width: 60%;
   padding: 6em 9em 6em 1em;
   color: #f2f2f2;
 }
-#section-top .content .tagline img {
+.content .tagline img {
   margin: 1em 0.3em;
   display: inline-block;
 }
-#section-top .content .tagline h1 {
+.content .tagline h1 {
   font-size: 2.5em;
   padding: 0.7em 0em;
 }
-#section-top .content .tagline p {
+.content .tagline p {
   font-size: 0.8em;
 }
-#section-top .content .device {
-  width: 40%;
+.content .device {
+  width: 400px;
   float: left;
   position: absolute;
-  top: 3em;
+  bottom: 3em;
+  transform: translate(0%, 50%);
 }
 
 
 #person {
-  background: #FFF8F7;
+  background: #FFF4EE;
 }
 #person .content {
   width: 90%;
@@ -97,8 +98,8 @@ body {
 }
 #person .content .ios > img {
   transform: translate(-40%, 0%);
-  width: 900px;
-  height: 600px;
+  width: 800px;
+  height: 500px;
 }
 #person .content .aside {
   float: right;
@@ -141,4 +142,73 @@ body {
 }
 #person .content .aside .bottom .img img {
   width: 80px;
+}
+
+#how-it-works {
+  background: #FEFEFE;
+  padding: 50px;
+}
+#how-it-works .content {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+#how-it-works .content > h1 {
+  color: #F05D64;
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+#how-it-works .content .box {
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+}
+#how-it-works .content .box .img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+#how-it-works .content .box .img img {
+  height: 100%;
+}
+#how-it-works .content .box h1 {
+  color: #898989;
+  font-size: 1em;
+}
+#how-it-works .content .box p {
+  color: #B3B3B3;
+  font-size: 0.9em;
+}
+
+#download {
+  background: linear-gradient(to bottom, #FE8C4D 30%, #FD5554 90%);
+  overflow: hidden;
+}
+#download .content {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+footer {
+  background: #1A1615;
+  color: #f2f2f2;
+  width: 100%;
+  height: 50px;
+}
+footer .content-left {
+  float: left;
+  margin-left: 40px;
+}
+footer p {
+  font-size: 0.9em;
+}
+footer .content-right {
+  float: right;
+}
+footer .content-right a {
+  text-decoration: none;
+  color: #f2f2f2;
+  display: inline-block;
+  margin-right: 10px;
 }
