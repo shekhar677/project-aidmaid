@@ -1,2 +1,2 @@
-# project-aidmaid
-![Project AidMaid](https://github.com/shekhar677/project-aidmaid/blob/master/bg.png "Project AidMaid")
+# project-getaid
+![Project GetAid](https://github.com/shekhar677/project-getaid/blob/master/getaid.png "Project GetAid")
